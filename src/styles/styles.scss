@@ -1,0 +1,45 @@
+@import "../components/header_components/Mobile";
+@import "../components/header_components/header";
+@import "../components/footer_components/footer";
+@import "../pages/404";
+@import "../pages/index";
+@import "../pages/about";
+@import "../pages/services";
+@import "../pages/service_options";
+@import "../pages/prep_after";
+@import "../pages/faq";
+@import "./presets/_font";
+@import "./presets/color";
+
+.container {
+    height: 100%;
+    width: 100%;
+
+    .main_title {
+        @include mobile-main-title;
+    }
+    .title {
+        @include mobile-title;
+    }
+    .subtext {
+        @include mobile-subtext;
+    }
+    .read-text {
+        @include mobile-read-text;
+    }
+    .button {
+        @include mobile-button;
+    }
+    //Mobile images
+    img {
+        max-width: 100%;
+    }
+    li {
+        list-style-type: none;
+        font-size: 16px;
+        @include mobile-read-text;
+    }
+    li:before {
+        content: "- ";
+    }
+}

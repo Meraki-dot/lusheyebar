@@ -1,0 +1,15 @@
+@import '../../styles/presets/_font';
+
+#footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    margin-top: 0;
+    @include mobile-subtext;
+
+    a {
+        text-decoration: none;
+        color: $secondary-text;
+    }
+}

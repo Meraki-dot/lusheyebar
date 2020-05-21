@@ -1,0 +1,62 @@
+.service_options {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    @include mobile-title;
+    h1,
+    .main_subtext {
+        margin-left: 5%;
+    }
+    h1 {
+        margin-bottom: 10px;
+    }
+    .main_subtext {
+        margin-top: 0;
+        margin-bottom: 75px;
+    }
+    //service items sections
+    #service_items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .sub_title {
+            font-family: "Raleway", sans-serif;
+            font-size: 20px;
+            color: $secondary-text;
+            margin: 30px 0 5px 0;
+        }
+        .price_text {
+            font-family: "Lusitana", serif;
+            font-size: 12px;
+            color: $secondary-text;
+            margin: 8px 0 18px 0;
+        }
+        .price_group {
+            margin: 0;
+        }
+        .last_price {
+            margin: 0 0 18px 0;
+        }
+        .solo_first {
+            margin-top: 20px;
+        }
+        .solo, .solo_first {
+            margin-bottom: 3px;
+        }
+        .solo_last {
+            margin-bottom: -10px;
+        }
+        .service_description {
+            @include mobile-read-text;
+            margin: 0 45px;
+            line-height: 25px;
+        }
+        a {
+            font-size: 16px;
+            @include mobile-button;
+            width: 40%;
+            padding: 12px 0px;
+            margin: 40px 0 75px 0;
+        }
+    }
+}

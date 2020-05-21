@@ -1,0 +1,37 @@
+@import './color';
+
+@mixin mobile-main-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    color: $primary-text;
+}
+
+@mixin mobile-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 60px;
+    color: $primary-text;
+}
+
+@mixin mobile-subtext {
+    font-family: 'Lusitana', serif;
+    font-size: 16px;
+    color: $secondary-text;
+}
+
+@mixin mobile-read-text {
+    font-family: 'Lusitana', serif;
+    font-size: 16px;
+    color: $secondary-text;
+}
+
+@mixin mobile-button {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: $primary-text;
+    border: $primary-text 0.8px solid;
+    text-align: center;
+    background: transparent;
+}
