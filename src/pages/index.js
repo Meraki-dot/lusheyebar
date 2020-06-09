@@ -9,7 +9,6 @@ const IndexPage = () => (
     <div className="container" id="home">
       {/* <SEO title="Home" /> */}
       <h1 className="main_title">LUSH EYE BAR</h1>
-      <p className='subtext'>beauty · lovely · elegant</p>
       <Link className="button" to="/services">Learn More.</Link>
     </div>
   </Layout>

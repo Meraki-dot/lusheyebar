@@ -9,7 +9,6 @@ const Services = () => (
     {/* <SEO title="Services" /> */}
     <div className="container" id="services">
       <h1 className="title">Services.</h1>
-      <p className="subtext main_subtext">simple · real · kind</p>
       <div id="service_items">
         <img src={Eye_Test} />
         <Link to="lashes">Lashes.</Link>

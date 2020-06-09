@@ -4,15 +4,11 @@
     justify-content: start;
     @include mobile-title;
 
-    h1, .main_subtext {
+    h1 {
         margin-left: 5%;
     }
     h1 {
-        margin-bottom: 10px;
-    }
-    .main_subtext {
-        margin-top: 0;
-        margin-bottom: 75px;
+        margin-bottom: 85px;
     }
     a {
         font-size: 16px;

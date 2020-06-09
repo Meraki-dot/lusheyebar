@@ -4,23 +4,19 @@
     justify-content: start;
     @include mobile-title;
 
-    .title, .subtext {
+    .title {
         margin-left: 5%;
     }
 
     .title {
-        margin-bottom: 0;
-    }
-    .subtext {
-        margin-top: 5px;
-        margin-bottom: 50px;
+        margin-bottom: 65px;
     }
     .read-text {
-        margin: 15px 20px;
+        margin: 0 20px;
         line-height: 30px;
     }
 }
 
 #footer-container {
-    margin-top: 60px !important;
+    margin-top: 70px !important;
 }

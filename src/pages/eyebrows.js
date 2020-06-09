@@ -13,7 +13,6 @@ const Eyebrows = () => {
       {/* <SEO title="Eyebrows" /> */}
       <div className="container service_options">
         <h1 className="title">Eyebrows.</h1>
-        <p className="subtext main_subtext">soft · lush · gorgeous</p>
         <div id="service_items">
           <img src={Eye_Test} />
           <p className='sub_title'>Ombre Powder.</p>
