@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
+    z-index: 0;
     @include mobile-title;
     #prep_mobile_title {
         width: 100%;
@@ -47,6 +48,7 @@
         height: 16px;
         width: 16px;
         border: 1px solid;
+        z-index: -1;
     }
     .checkbox label::after {
         content: "";
@@ -56,12 +58,13 @@
         border-left: 2px solid;
         border-bottom: 2px solid;
         transform: rotate(-45deg);
+        z-index: -1;
     }
     .checkbox label {
         position: relative;
         font-size: 12px;
         @include mobile-read-text;
-
+        z-index: -1;
         div {
             margin-left: 40px;
             max-width: 190px;

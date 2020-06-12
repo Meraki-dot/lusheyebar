@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import { Link } from "gatsby"
-import Eye_Test from "../images/eye_test.jpg"
+import Lash_overview from "../images/lash_overview.jpg"
 import SEO from "../components/seo"
 
 const Waxing = () => {
@@ -13,7 +13,7 @@ const Waxing = () => {
       <div className="container service_options">
         <h1 className="title">Waxing.</h1>
         <div id="service_items">
-          <img src={Eye_Test} />
+          <img src={Lash_overview} />
           <p className="sub_title">Face Waxing.</p>
           <p className="price_text price_group solo_first">
             Lip · 30 min · $15+
@@ -27,7 +27,7 @@ const Waxing = () => {
           </p>
           <Link to="">{button_title}</Link>
 
-          <img src={Eye_Test} />
+          <img src={Lash_overview} />
           <p className="sub_title">Bikini Waxing.</p>
           <p className="price_text price_group solo_first">
             First Time Bikini Line · 1 hour · $45+
@@ -43,7 +43,7 @@ const Waxing = () => {
           </p>
           <Link to="">{button_title}</Link>
 
-          <img src={Eye_Test} />
+          <img src={Lash_overview} />
           <p className="sub_title">Brazilian Waxing.</p>
           <p className="price_text price_group solo_first">
             First Time Brazilian · 1 hour · $65+
@@ -53,7 +53,7 @@ const Waxing = () => {
           </p>
           <Link to="">{button_title}</Link>
 
-          <img src={Eye_Test} />
+          <img src={Lash_overview} />
           <p className="sub_title">Butt Waxing.</p>
           <p className="price_text price_group solo_first">Butt · 30 min · $45+</p>
           <p className="price_text last_price solo_last">
@@ -61,7 +61,7 @@ const Waxing = () => {
           </p>
           <Link to="">{button_title}</Link>
 
-          <img src={Eye_Test} />
+          <img src={Lash_overview} />
           <p className="sub_title">Body Waxing.</p>
           <p className="price_text price_group solo_first">
             Underarm · 30 min · $25

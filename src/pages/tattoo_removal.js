@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import { Link } from "gatsby"
-import Eye_Test from "../images/eye_test.jpg"
+import Lash_overview from "../images/lash_overview.jpg"
 import SEO from "../components/seo"
 
 const Tattoo_Removal = () => {
@@ -14,7 +14,7 @@ const Tattoo_Removal = () => {
       <div className="container service_options">
         <h1 className="title">Tattoo Removal.</h1>
         <div id="service_items">
-          <img src={Eye_Test} />
+          <img src={Lash_overview} />
           <p className='sub_title'>Tattoo Removal.</p>
           <p className='price_text'>Pricing Varies | Starts at $175</p>
           <p className='service_description'>

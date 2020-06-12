@@ -1,7 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
 import { Link } from "gatsby"
-import Eye_Test from "../images/eye_test.jpg"
+import Classic from "../images/Classic_lashes.jpg"
+import Mega_volume_lashes from "../images/Mega_volume_lashes.jpg"
+import Natural_classic from "../images/Natural_classic_lashes.jpg"
+import Natural_volume from "../images/Natural_volume_lashes.jpg"
+import Volume_lashes from "../images/Volume_lashes.jpg"
 import SEO from "../components/seo"
 
 const Lashes = () => {
@@ -14,7 +18,7 @@ const Lashes = () => {
       <div className="container service_options">
         <h1 className="title">Lashes.</h1>
         <div id="service_items">
-          <img src={Eye_Test} />
+          <img src={Natural_classic} />
           <p className='sub_title'>Natural Classic.</p>
           <p className='price_text'>1 hour · $130 | 2-3 week fill · $70</p>
           <p className='service_description'>
@@ -25,7 +29,7 @@ const Lashes = () => {
           </p>
           <Link to="lashes_prep_after">{button_title}</Link>
 
-          <img src={Eye_Test} />
+          <img src={Classic} />
           <p className='sub_title'>Classic.</p>
           <p className='price_text'>2 hours · $185 | 2-3 week fill · $95</p>
           <p className='service_description'>
@@ -34,7 +38,7 @@ const Lashes = () => {
           </p>
           <Link to="lashes_prep_after">{button_title}</Link>
 
-          <img src={Eye_Test} />
+          <img src={Natural_volume} />
           <p className='sub_title'>Natural Volume.</p>
           <p className='price_text'>2.5 hours · $185 | 2-3 week fill · $110</p>
           <p className='service_description'>
@@ -44,7 +48,7 @@ const Lashes = () => {
           </p>
           <Link to="lashes_prep_after">{button_title}</Link>
 
-          <img src={Eye_Test} />
+          <img src={Volume_lashes} />
           <p className='sub_title'>Volume.</p>
           <p className='price_text'>3 hours · $250 | | 2-3 week fill · $135</p>
           <p className='service_description'>
@@ -56,7 +60,7 @@ const Lashes = () => {
           </p>
           <Link to="lashes_prep_after">{button_title}</Link>
 
-          <img src={Eye_Test} />
+          <img src={Mega_volume_lashes} />
           <p className='sub_title'>Mega Volume.</p>
           <p className='price_text'>3 hours · $300 | 2-3 week fill · $160</p>
           <p className='service_description'>

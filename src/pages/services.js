@@ -1,10 +1,10 @@
 import React from "react"
 import Layout from "../components/layout"
 import { Link } from "gatsby"
-import Eye_Test from "../images/eye_test.jpg"
+import Lash_overview from "../images/lash_overview.jpg"
 import Tattoo from "../images/Tattoo_removal.jpg"
 import Wax from "../images/wax.jpeg"
-import Eyebrows from "../images/Eyebrow_overview.jpg"
+import Brow_overview from "../images/brow_overview.jpg"
 import SEO from "../components/seo"
 
 const Services = () => (
@@ -13,9 +13,9 @@ const Services = () => (
     <div className="container" id="services">
       <h1 className="title">Services.</h1>
       <div id="service_items">
-        <img src={Eye_Test} />
+        <img src={Lash_overview} />
         <Link to="lashes">Lashes.</Link>
-        <img src={Eyebrows} />
+        <img src={Brow_overview} />
         <Link to="eyebrows">Eyebrows.</Link>
         <img src={Tattoo} />
         <Link to="tattoo_removal">Tattoo Removal.</Link>
