@@ -11,6 +11,20 @@
 @import "./presets/_font";
 @import "./presets/color";
 
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.container, #prep_after {
+    -webkit-animation: fadeEffect 0.75s;
+    animation: fadeEffect 0.75s; /* Fading effect takes 1 second */
+}
+
 .container {
     height: 100%;
     width: 100%;
