@@ -21,10 +21,10 @@ const Tattoo_policies = () => {
   return (
     <Layout>
       <div id="prep_after">
-        <p id="prep_mobile_title">Policies.</p>
-        <p id="mobile_sub_title">Deposit.</p>
+        <p id="prep_mobile_title">Policies</p>
+        <p id="mobile_sub_title">Deposit</p>
         <p className="policy_text">
-          When booking your appoitnment, you will be asekd to place a $100 deposit for your service. The deposit will be applied towards your remaining balance the day of your appointment. Please bring CASH for the remaining balance. Depoists are non-refundable and non-transferable. Before booking an appointment, please make sure to send a clear picture of the tattoo you would like to remove. Once I review the picture, I will let you know if I'm able to proceed with the removal.
+          When booking your appoitnment, you will be asekd to place a $100 deposit for your service. The deposit will be applied towards your remaining balance the day of your appointment. Please bring CASH for the remaining balance. Deposits are non-refundable and non-transferable. Before booking an appointment, please make sure to send a clear picture of the tattoo you would like to remove. Once I review the picture, I will let you know if I'm able to proceed with the removal.
         </p>
         <p id="mobile_sub_title">Cancellation.</p>
         <p className="policy_text">
@@ -42,7 +42,7 @@ const Tattoo_policies = () => {
         <div id="button_container">
           <Link to="">
             <button id="agree_button">
-              <p>Book.</p>
+              <p>Book</p>
             </button>
           </Link>
         </div>

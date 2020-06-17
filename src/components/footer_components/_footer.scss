@@ -1,15 +1,26 @@
-@import '../../styles/presets/_font';
+@import "../../styles/presets/_font";
 
 #footer-container {
     width: 100%;
-    display: flex;
-    justify-content: center;
     padding-bottom: 15px;
     margin-top: 0;
+    display: flex;
+    justify-content: center;
     @include mobile-subtext;
 
-    a {
-        text-decoration: none;
-        color: $secondary-text;
+    #mobile_footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        text-align: center;
+        border-top: 1px solid grey;
+        padding-top: 10px;
+        a {
+            text-decoration: none;
+            color: $secondary-text;
+            margin-top: 10px;
+        }
     }
 }

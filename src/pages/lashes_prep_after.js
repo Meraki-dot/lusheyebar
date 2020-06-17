@@ -22,8 +22,8 @@ const Lashes_prep_after = () => {
   return (
     <Layout>
       <div id="prep_after">
-        <p id="prep_mobile_title">Things to do.</p>
-        <p id="mobile_sub_title">Before.</p>
+        <p id="prep_mobile_title">Things to do</p>
+        <p id="mobile_sub_title">Before</p>
         <ul>
           <li>Remove all make-up with an oil free remover</li>
           <li>
@@ -42,7 +42,7 @@ const Lashes_prep_after = () => {
           </li>
           <li>No caffeine before appointment.</li>
         </ul>
-        <p id="mobile_sub_title">After.</p>
+        <p id="mobile_sub_title">After</p>
         <ul>
           <li>Do not use oil base products around the eyes.</li>
           <li>Use only water based makeup & makeup remover.</li>
@@ -61,7 +61,7 @@ const Lashes_prep_after = () => {
         <div id="button_container">
           <Link to="lashes_policies">
             <button id="agree_button">
-              <p>Next.</p>
+              <p>Next</p>
             </button>
           </Link>
         </div>

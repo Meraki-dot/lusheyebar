@@ -21,8 +21,8 @@ const Lashes_policies = () => {
   return (
     <Layout>
       <div id="prep_after">
-        <p id="prep_mobile_title">Policies.</p>
-        <p id="mobile_sub_title">Deposit.</p>
+        <p id="prep_mobile_title">Policies</p>
+        <p id="mobile_sub_title">Deposit</p>
         <p className="policy_text">
           When booking your appointment, you will be asked to place a $50
           deposit for your service. The deposit will be applied toward your
@@ -30,7 +30,7 @@ const Lashes_policies = () => {
           the remainder balance. Deposits are non refundable and non
           transferable.
         </p>
-        <p id="mobile_sub_title">Cancellation.</p>
+        <p id="mobile_sub_title">Cancellation</p>
         <p className="policy_text">
           If you are more than 15 minutes late or any cancellation or
           rescheduling 48 hours before your appointment, your deposit will be
@@ -46,7 +46,7 @@ const Lashes_policies = () => {
         <div id="button_container">
           <Link to="">
             <button id="agree_button">
-              <p>Book.</p>
+              <p>Book</p>
             </button>
           </Link>
         </div>

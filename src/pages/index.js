@@ -8,8 +8,9 @@ const IndexPage = () => (
   <Layout>
     <div className="container" id="home">
       {/* <SEO title="Home" /> */}
+      <h1 className="welcome_title">Welcome</h1>
       <h1 className="main_title">LUSH EYE BAR</h1>
-      <Link className="button" to="/services">Learn More.</Link>
+      <Link className="button" to="/services">Learn More</Link>
     </div>
   </Layout>
 )

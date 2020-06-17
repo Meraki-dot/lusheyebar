@@ -16,10 +16,10 @@ const Lashes = () => {
     <Layout>
       {/* <SEO title="Lashes" /> */}
       <div className="container service_options">
-        <h1 className="title">Lashes.</h1>
+        <h1 className="title">Lashes</h1>
         <div id="service_items">
           <img src={Natural_classic} />
-          <p className='sub_title'>Natural Classic.</p>
+          <p className='sub_title'>Natural Classic</p>
           <p className='price_text'>1 hour · $130 | 2-3 week fill · $70</p>
           <p className='service_description'>
             The technician will apply one extension per a natural lash. Lash
@@ -30,7 +30,7 @@ const Lashes = () => {
           <Link to="lashes_prep_after">{button_title}</Link>
 
           <img src={Classic} />
-          <p className='sub_title'>Classic.</p>
+          <p className='sub_title'>Classic</p>
           <p className='price_text'>2 hours · $185 | 2-3 week fill · $95</p>
           <p className='service_description'>
             Same technique as natural classic. Lash coverage, 85% of natural
@@ -39,7 +39,7 @@ const Lashes = () => {
           <Link to="lashes_prep_after">{button_title}</Link>
 
           <img src={Natural_volume} />
-          <p className='sub_title'>Natural Volume.</p>
+          <p className='sub_title'>Natural Volume</p>
           <p className='price_text'>2.5 hours · $185 | 2-3 week fill · $110</p>
           <p className='service_description'>
             The technician hand makes 3-5d fans and applies it to one natural
@@ -49,7 +49,7 @@ const Lashes = () => {
           <Link to="lashes_prep_after">{button_title}</Link>
 
           <img src={Volume_lashes} />
-          <p className='sub_title'>Volume.</p>
+          <p className='sub_title'>Volume</p>
           <p className='price_text'>3 hours · $250 | | 2-3 week fill · $135</p>
           <p className='service_description'>
             Same technique as natural volume. Lash coverage, 85% of natural
@@ -61,7 +61,7 @@ const Lashes = () => {
           <Link to="lashes_prep_after">{button_title}</Link>
 
           <img src={Mega_volume_lashes} />
-          <p className='sub_title'>Mega Volume.</p>
+          <p className='sub_title'>Mega Volume</p>
           <p className='price_text'>3 hours · $300 | 2-3 week fill · $160</p>
           <p className='service_description'>
             Using lighter and thinner lashes, creating up to 16d fans. This is

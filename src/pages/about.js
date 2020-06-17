@@ -6,7 +6,7 @@ const About = () => (
   <Layout>
     {/* <SEO title="Page two" /> */}
     <div className="container" id="about">
-      <h1 className="title">About.</h1>
+      <h1 className="title">About</h1>
       <p className="read-text">
         Thanh is a licensed esthetician, certified permanent cosmetic artist and
         eyelash guru client feels comfortable and assured. In preparation for

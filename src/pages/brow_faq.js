@@ -30,7 +30,7 @@ const Brow_faq = () => {
   return (
     <Layout>
       <div className="container" id="faq">
-        <h1 className="title">Brow FAQ.</h1>
+        <h1 className="title">Brow FAQ</h1>
         <Accordion className="accordion_container" allowZeroExpanded="true">
           <AccordionItem className="accordion_item">
             <AccordionItemHeading>

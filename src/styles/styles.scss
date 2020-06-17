@@ -8,8 +8,29 @@
 @import "../pages/service_options";
 @import "../pages/prep_after";
 @import "../pages/faq";
-@import "./presets/_font";
+@import "./presets/font";
 @import "./presets/color";
+
+@font-face {
+    font-family: 'Raleway Light';
+    src: url('./fonts/Raleway-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Raleway Regular';
+    src: url('./fonts/Raleway-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Lusitana Regular';
+    src: url('./fonts/Lusitana-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Lusitana Bold';
+    src: url('./fonts/Lusitana-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Bhalbino';
+    src: url('./fonts/BhalbinoRegular.ttf') format('truetype');
+}
 
 @-webkit-keyframes fadeEffect {
     from {opacity: 0;}

@@ -16,16 +16,18 @@
         flex-direction: column;
         align-items: center;
         .sub_title {
-            font-family: "Raleway", sans-serif;
-            font-size: 20px;
+            font-family: "Raleway Regular", sans-serif;
+            font-size: 28px;
             color: $secondary-text;
             margin: 30px 0 5px 0;
         }
         .price_text {
-            font-family: "Lusitana", serif;
-            font-size: 12px;
+            font-family: "Lusitana Regular", serif;
+            font-size: 16px;
             color: $secondary-text;
             margin: 8px 0 18px 0;
+            width: 70%;
+            text-align: center;
         }
         .price_group {
             margin: 0;

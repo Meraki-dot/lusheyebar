@@ -3,11 +3,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 87vh !important;  
+    height: 78vh !important;  
 
-    h1 {
-        margin: 30px 0 40px 0;
-        letter-spacing: 5px;
+    .welcome_title {
+        font-family: 'Bhalbino';
+        margin-bottom: 25px;
+        margin-top: 80px;
+        font-size: 64px;
+        font-weight: 400;
+    }
+    .main_title {
+        margin: -30px 0 40px 0;
+        letter-spacing: 4px;
         text-align: center;
     }
     a {  
