@@ -44,7 +44,7 @@ const Lashes_policies = () => {
           </label>
         </div>
         <div id="button_container">
-          <Link to="">
+          <Link to="lashes_prep_after">
             <button id="agree_button">
               <p>Book</p>
             </button>

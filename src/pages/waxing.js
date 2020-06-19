@@ -9,7 +9,7 @@ import Body_wax from "../images/Body_wax.jpg"
 import SEO from "../components/seo"
 
 const Waxing = () => {
-  const button_title = "Book Now."
+  const button_title = "Book Now"
 
   return (
     <Layout>
@@ -31,7 +31,7 @@ const Waxing = () => {
           <p className="price_text last_price solo_last">
             <strong>Chin</strong> · 30 min · $15+
           </p>
-          <Link to="">{button_title}</Link>
+          <a href='https://lusheyebar.schedulista.com'>{button_title}</a>
 
           <img src={Bikini_wax} />
           <p className="sub_title">Bikini Waxing</p>
@@ -49,7 +49,7 @@ const Waxing = () => {
             <strong>Full Bikini</strong> Serviced performed 5 weeks prior · 30
             min · $50+
           </p>
-          <Link to="">{button_title}</Link>
+          <a href='https://lusheyebar.schedulista.com'>{button_title}</a>
 
           <img src={Brazilian_wax} />
           <p className="sub_title">Brazilian Waxing</p>
@@ -60,7 +60,7 @@ const Waxing = () => {
             <strong>Brazilian</strong> Serviced performed 5 weeks prior · 30 min
             · $60+
           </p>
-          <Link to="">{button_title}</Link>
+          <a href='https://lusheyebar.schedulista.com'>{button_title}</a>
 
           <img src={Butt_wax} />
           <p className="sub_title">Butt Waxing</p>
@@ -70,7 +70,7 @@ const Waxing = () => {
           <p className="price_text last_price solo_last">
             <strong>Butt Strip</strong> · 30 min · $25+
           </p>
-          <Link to="">{button_title}</Link>
+          <a href="href='https://lusheyebar.schedulista.com">{button_title}</a>
 
           <img src={Body_wax} />
           <p className="sub_title">Body Waxing</p>
@@ -105,7 +105,7 @@ const Waxing = () => {
           <p className="price_text last_price solo_last">
             <strong>Full Arm</strong> · 60 min · $80+
           </p>
-          <Link to="">{button_title}</Link>
+          <Link to="/schedule">{button_title}</Link>
         </div>
       </div>
     </Layout>

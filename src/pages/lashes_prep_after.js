@@ -59,9 +59,9 @@ const Lashes_prep_after = () => {
           </label>
         </div>
         <div id="button_container">
-          <Link to="lashes_policies">
+          <Link to="/schedule">
             <button id="agree_button">
-              <p>Next</p>
+              <p>Book</p>
             </button>
           </Link>
         </div>

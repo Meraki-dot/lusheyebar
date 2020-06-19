@@ -2,11 +2,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    height: 78vh;
 
     h1 {
-        font-size: 40px;
-        font-weight: 400;
-        text-align: center;
-        font-family: 'Raleway Regular', sans-serif; 
+        @include mobile-title;
+    }
+    p {
+        @include mobile-read-text;
+    }
+    button {
+        margin-top: 5%;
+        background-color: transparent;
+        border: $primary-text 1px solid;
+        padding: 12px 12px;
+        a {
+            text-decoration: none;
+            font-family: 'Raleway Regular', sans-serif;
+            color: $primary-text;
+        }
     }
 }

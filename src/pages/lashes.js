@@ -27,7 +27,7 @@ const Lashes = () => {
             who already have a lot of lashes, but would like to add more length.
             This style creates a more natural look.{" "}
           </p>
-          <Link to="lashes_prep_after">{button_title}</Link>
+          <Link to="lashes_policies">{button_title}</Link>
 
           <img src={Classic} />
           <p className='sub_title'>Classic</p>
@@ -36,7 +36,7 @@ const Lashes = () => {
             Same technique as natural classic. Lash coverage, 85% of natural
             lash.{" "}
           </p>
-          <Link to="lashes_prep_after">{button_title}</Link>
+          <Link to="lashes_policies">{button_title}</Link>
 
           <img src={Natural_volume} />
           <p className='sub_title'>Natural Volume</p>
@@ -46,7 +46,7 @@ const Lashes = () => {
             eyelash. Lash coverage, 50% of natural eyelash. Creating a light
             everyday look.
           </p>
-          <Link to="lashes_prep_after">{button_title}</Link>
+          <Link to="lashes_policies">{button_title}</Link>
 
           <img src={Volume_lashes} />
           <p className='sub_title'>Volume</p>
@@ -58,7 +58,7 @@ const Lashes = () => {
             lot of lashes, have sparse lashes, bald spots or just want a more
             dramatic look without having to use a thicker lash.{" "}
           </p>
-          <Link to="lashes_prep_after">{button_title}</Link>
+          <Link to="lashes_policies">{button_title}</Link>
 
           <img src={Mega_volume_lashes} />
           <p className='sub_title'>Mega Volume</p>
@@ -67,7 +67,7 @@ const Lashes = () => {
             Using lighter and thinner lashes, creating up to 16d fans. This is
             the fullest and most dramatic set we offer.
           </p>
-          <Link to="lashes_prep_after">{button_title}</Link>
+          <Link to="lashes_policies">{button_title}</Link>
         </div>
       </div>
     </Layout>
