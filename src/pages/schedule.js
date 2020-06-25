@@ -14,7 +14,7 @@ const Schedule = () => {
         frameborder="0"
         scrolling="no"
         width="100%"
-        height="790px"
+        height="900px"
       ></iframe>
       <script
         id="schedulista-widget-script-00"
