@@ -10,7 +10,7 @@ import SEO from "../components/seo"
 
 const Lashes = () => {
 
-  const button_title = "Book Now."
+  const button_title = "Book Now"
 
   return (
     <Layout>
@@ -50,7 +50,7 @@ const Lashes = () => {
 
           <img src={Volume_lashes} />
           <p className='sub_title'>Volume</p>
-          <p className='price_text'>3 hours · $250 | | 2-3 week fill · $135</p>
+          <p className='price_text'>3 hours · $250 | 2-3 week fill · $135</p>
           <p className='service_description'>
             Same technique as natural volume. Lash coverage, 85% of natural
             eyelash. Volume lashes are lighter, fluffier and gives the client a
