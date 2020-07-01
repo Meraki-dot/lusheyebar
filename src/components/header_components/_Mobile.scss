@@ -1,28 +1,31 @@
-/* Position and sizing of burger button */
-.bm-burger-button {
+@media only screen and (max-width: 599px) {
+  #desktop-menu-container {
+    display: none;
+  }
+  /* Position and sizing of burger button */
+  .bm-burger-button {
     position: fixed;
     width: 35px;
     height: 28px;
     top: 2.5%;
     right: 5%;
-  
+
     & button {
       outline: none;
     }
   }
-  
+
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
     background: black;
     border-radius: 5em;
   }
-  
+
   .bm-menu-wrap {
     position: fixed;
     height: 100%;
   }
-  
-  
+
   /* Position and sizing of clickable cross button */
   .bm-cross-button {
     margin-top: 5em;
@@ -34,46 +37,46 @@
       }
     }
   }
-  
+
   /* Color/shape of close button cross */
   .bm-cross {
     background: #bdc3c7;
   }
-  
+
   /* General sidebar styles */
   .bm-menu {
     background: white;
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;
     top: 0;
-    z-index: 5; 
-  
+    z-index: 5;
+
     & .bm-item-list {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: flex-start;
-      font-family: 'Raleway Light', sans-serif;
+      font-family: "Raleway Light", sans-serif;
       font-size: 24px;
       font-weight: 300;
-  
+
       & #menu-container {
         display: flex !important;
         justify-content: space-evenly;
         align-items: flex-end;
         flex-direction: column;
         height: 70%;
-        
+
         @supports not (-ms-ime-align: auto) {
           .className {
-            justify-content: space-between
+            justify-content: space-between;
           }
         }
-        
+
         &:focus {
           outline: none;
         }
-  
+
         & a {
           color: black;
           cursor: pointer;
@@ -82,12 +85,12 @@
           text-decoration: none;
         }
       }
-  
     }
   }
-  
+
   .bm-overlay {
     display: block;
     background: white !important;
     z-index: 5;
   }
+}

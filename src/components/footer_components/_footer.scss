@@ -1,26 +1,94 @@
 @import "../../styles/presets/_font";
 
-#footer-container {
-    width: 100%;
-    padding-bottom: 15px;
-    margin-top: 0;
-    display: flex;
-    justify-content: center;
-    @include mobile-subtext;
-
+@media only screen and (min-width: 600px) {
     #mobile_footer {
+        display: none;
+    }
+    #footer-container {
+        width: 100%;
+        padding-bottom: 15px;
         display: flex;
-        flex-direction: column;
         justify-content: center;
-        align-items: center;
-        width: 60%;
-        text-align: center;
-        border-top: 1px solid grey;
-        padding-top: 10px;
+        font-family: 'Lusitana', serif;
         a {
             text-decoration: none;
             color: $secondary-text;
-            margin-top: 10px;
+            &:hover {
+                color: black;
+            }
+        }
+        #desktop_footer {
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-top: 1px solid grey;
+            padding-top: 2rem;
+            
+
+            .address, .contact_details, .social_media {
+                max-width: 11rem;
+                
+            }
+            .contact_details {
+                display: flex;
+                flex-direction: column;
+                margin-right: 2rem;
+                text-align: center;
+                a {
+                    height: 1.5rem;
+                }
+            }
+            .social_media {
+                display: flex;
+                justify-content: space-evenly;
+                img {
+                    width: 1.5rem;
+                }
+                #insta, #fb {
+                    margin-top: 0.125rem;
+                }
+                #fb {
+                    margin-left: 2rem;
+                }
+                #yelp {
+                    width: 1.75rem;
+                    margin-left: 2rem;
+                    
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #desktop_footer {
+        display: none;
+    }
+    #footer-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 1rem;
+        left: 0;
+        z-index: -1;
+        @include mobile-subtext;
+
+        #mobile_footer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 60%;
+            text-align: center;
+            border-top: 1px solid grey;
+            padding-top: 10px;
+            a {
+                text-decoration: none;
+                color: $secondary-text;
+                margin-top: 10px;
+            }
         }
     }
 }

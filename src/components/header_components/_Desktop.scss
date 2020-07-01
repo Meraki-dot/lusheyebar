@@ -1,0 +1,45 @@
+@media only screen and (min-width: 600px) {
+    .burger,
+    .bm-burger-button,
+    .bm-menu-wrap,
+    .bm-overlay {
+        display: none;
+    }
+    #desktop-menu-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 5rem;
+
+        #link-container {
+            margin-right: 5%;
+            display: flex;
+            width: 15%;
+            min-width: 20rem;
+            justify-content: space-between;
+            a {
+                text-transform: uppercase;
+                font-size: 1rem;
+                text-decoration: none;
+                color: black;
+                font-family: "Raleway", sans-serif;
+                &:hover {
+                    color: grey;
+                }
+            }
+        }
+
+        #logo {
+            margin-left: 5%;
+            a {
+                font-family: "Raleway", sans-serif;
+                text-decoration: none;
+                color: black;
+                font-size: 1rem;
+                &:hover {
+                    color: grey;
+                }
+            }
+        }
+    }
+}

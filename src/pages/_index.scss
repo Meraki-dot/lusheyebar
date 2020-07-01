@@ -1,25 +1,80 @@
-#home {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 78vh !important;  
+@media only screen and (min-width: 768px) {
+    #home {
+        min-height: 62vh;
+        height: 100%;
+        width: 100%;
+        margin: 7rem 0 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
 
-    .welcome_title {
-        font-family: 'Bhalbino';
-        margin-bottom: 25px;
-        margin-top: 80px;
-        font-size: 64px;
-        font-weight: 400;
+        .page_content {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: auto;
+            .welcome_title {
+                font-size: 8.25rem;
+                font-family: "Bhalbino";
+                font-weight: 300;
+                margin-bottom: 0;
+            }
+            .main_title {
+                font-size: 3rem;
+                font-family: 'Raleway Light', sans-serif;
+                font-weight: 300;
+                margin-top: -4rem;
+                letter-spacing: 0.5rem;
+            }
+            .button {
+                padding: 1rem 1.5rem;
+                font-family: 'Raleway Light', sans-serif;
+                font-weight: 300;
+                font-size: 1.25rem;
+                margin-top: 3rem;
+                margin-bottom: 5%;
+                border-color: $paragraph-text;;
+                &:hover {
+                    transition: ease-in-out 0.25s;
+                    background-color: $paragraph-text;
+                    color: white;
+                }
+            }
+        }
     }
-    .main_title {
-        margin: -30px 0 40px 0;
-        letter-spacing: 4px;
-        text-align: center;
-    }
-    a {  
-        @include mobile-button;   
-        padding: 15px 40px;
-        font-size: 16px;
+}
+
+@media only screen and (max-width: 767px) {
+    #home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 78vh !important;
+
+        .page_content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .welcome_title {
+                font-family: "Bhalbino";
+                margin-bottom: 25px;
+                margin-top: 80px;
+                font-size: 64px;
+                font-weight: 400;
+            }
+            .main_title {
+                margin: -30px 0 40px 0;
+                letter-spacing: 4px;
+                text-align: center;
+            }
+            .button {
+                @include mobile-button;
+                padding: 15px 40px;
+                font-size: 16px;
+            }
+        }
     }
 }
