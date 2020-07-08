@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react"
 import Layout from "../components/layout"
 import { Link } from "gatsby"
+import Footer from "../components/footer_components/Footer"
 
 const Brow_policies = () => {
   const [agreed, setAgreed] = useState(false)
@@ -57,6 +58,7 @@ const Brow_policies = () => {
           </Link>
         </div>
       </div>
+      <Footer />
     </Layout>
   )
 }

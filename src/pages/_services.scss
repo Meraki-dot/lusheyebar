@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1200px) {
+@media all and (min-width: 1200px) {
     #mobile_services {
         display: none;
     }
@@ -18,38 +18,45 @@
             align-items: center;
             justify-content: center;
             padding: 8rem 7% 0 0;
-            .desktop_service_title {
-                width: 40%;
-                font-size: 4rem;
-                font-family: "Raleway Light", sans-serif;
-                text-align: center;
-                margin: 5rem 10% 28rem 0;
-            }
+            overflow: hidden;
             .sec-col {
                 display: flex;
-                flex-direction: column;
-                align-items: flex-end;
-                width: 34%;
-                img {
-                    width: 39rem;
-                    min-width: 30rem;
-                    opacity: 0.7;
-                    border: lightgrey 1px solid;
-                }
-                a {
-                    margin-top: 3rem;
-                    margin-bottom: 20rem;
-                    border: $paragraph-text 1px solid;
-                    padding: 1.5% 6%;
-                    font-size: 1.75rem;
+                width: 100%;
+                align-items: center;
+                margin-bottom: 20rem;
+                .desktop_service_title {
+                    width: 56%;
+                    font-size: 4rem;
                     font-family: "Raleway Light", sans-serif;
-                    color: $paragraph-text;
-                    text-decoration: none;
-                    cursor: pointer;
-                    &:hover {
-                        transition: ease-in-out 0.25s;
-                        background-color: $paragraph-text;
-                        color: white;
+                    text-align: center;
+                }
+                .service-info-container {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-end;
+                    justify-content: center;
+                    img {
+                        width: 35rem;
+                        min-width: 30rem;
+                        opacity: 0.7;
+                        border: lightgrey 1px solid;
+                    }
+                    a {
+                        margin-top: 3rem;
+                        border: $paragraph-text 1px solid;
+                        padding: 1.5% 6%;
+                        font-size: 1.75rem;
+                        font-family: "Raleway Light", sans-serif;
+                        color: $paragraph-text;
+                        text-decoration: none;
+                        width: 5rem;
+                        text-align: center;
+                        cursor: pointer;
+                        &:hover {
+                            transition: ease-in-out 0.25s;
+                            background-color: $paragraph-text;
+                            color: white;
+                        }
                     }
                 }
             }
@@ -85,31 +92,36 @@
                 flex-direction: column;
                 align-items: center;
                 width: 100%;
-                .opacity-window {
-                    background-color: #ebebeb;
-                    img {
-                        width: 30rem;
-                        min-width: 25rem;
-                        opacity: 0.8;
-                        position: relative;
-                        border: lightgrey 1px solid;
+                margin-bottom: 20rem;
+                .service-info-container {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-end;
+                    .opacity-window {
+                        background-color: #ebebeb;
+                        img {
+                            width: 30rem;
+                            min-width: 25rem;
+                            opacity: 0.8;
+                            position: relative;
+                            border: lightgrey 1px solid;
+                        }
                     }
-                }
-
-                a {
-                    margin-top: 3rem;
-                    margin-bottom: 10rem;
-                    border: $paragraph-text 1px solid;
-                    padding: 1% 5%;
-                    font-size: 1.75rem;
-                    font-family: "Raleway Light", sans-serif;
-                    color: $paragraph-text;;
-                    text-decoration: none;
-                    cursor: pointer;
-                    &:hover {
-                        transition: ease-in-out 0.25s;
-                        background-color: $paragraph-text;
-                        color: white;
+    
+                    a {
+                        margin-top: 3rem;
+                        border: $paragraph-text 1px solid;
+                        padding: 1% 5%;
+                        font-size: 1.75rem;
+                        font-family: "Raleway Light", sans-serif;
+                        color: $paragraph-text;
+                        text-decoration: none;
+                        cursor: pointer;
+                        &:hover {
+                            transition: ease-in-out 0.25s;
+                            background-color: $paragraph-text;
+                            color: white;
+                        }
                     }
                 }
             }

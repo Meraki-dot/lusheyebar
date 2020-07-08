@@ -11,10 +11,9 @@ const Desktop_tattoo = () => {
       <div className="grey_box"></div>
       <div id="service_items">
         <div
-          data-sal="fade"
-          data-sal-duration="500"
+          data-sal="slide-up"
+          data-sal-duration="1500"
           data-sal-easing="ease"
-          data-sal-delay="200"
           className="service_item"
         >
           <div className="service_title_prices">

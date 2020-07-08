@@ -1,120 +1,279 @@
-#prep_after {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    z-index: 0;
-    @include mobile-title;
-    #prep_mobile_title {
-        width: 100%;
-        text-align: center;
-    }
-    #mobile_sub_title {
-        font-size: 20px;
-        font-weight: 600;
-        margin-left: 7%;
-        margin-bottom: -20px;
-    }
-    ul {
-        max-width: 80%;
-        li {
-            list-style-type: none;
-            font-size: 16px;
+@media all and (min-width: 600px) {
+    #prep_after {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        z-index: 0;
+        @include mobile-title;
+        #prep_mobile_title {
+            width: 100%;
+            text-align: center;
+            margin-top: 8rem;
+            font-size: 3rem;
+        }
+        .policy-container {
+            display: flex;
+            width: 100%;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            .policy-details-container {
+                display: flex;
+                flex-direction: column;
+                #sub_title {
+                    margin-left: 10%;
+                    margin-bottom: -20px;
+                    font-family: 'Raleway Light', sans-serif;
+                    font-size: 2.25rem;
+                    font-weight: 300;
+                }
+                ul {
+                    max-width: 40rem;
+                    margin-left: 4.3%;
+                    li {
+                        list-style-type: none;
+                        font-size: 1.15rem;
+                        font-family: 'Lusitana', serif;
+                        color: $secondary-text;
+                        line-height: 1.95rem;
+                    }
+                    li:before {
+                        content: "- ";
+                    }
+                }
+                .policy_text {
+                    @include mobile-read-text;
+                    max-width: 35rem;
+                    align-self: flex-start;
+                    margin-top: 3rem;
+                    margin-left: 10%;
+                    line-height: 1.95rem;
+                    font-size: 1.15rem;
+                }
+            }
+        }
+        .checkbox {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin-top: 4rem;
+            margin-bottom: 20px;
+        }
+        .checkbox input[type="checkbox"] {
+            opacity: 0;
+            height: 28px;
+            width: 28px;
+        }
+        .checkbox label::before {
+            content: "";
+            display: inline-block;
+            height: 16px;
+            width: 16px;
+            border: 1px solid;
+            z-index: -1;
+        }
+        .checkbox label::after {
+            content: "";
+            display: inline-block;
+            height: 6px;
+            width: 9px;
+            border-left: 2px solid;
+            border-bottom: 2px solid;
+            transform: rotate(-45deg);
+            z-index: -1;
+        }
+        .checkbox label {
+            position: relative;
             @include mobile-read-text;
+            font-size: 1.2rem;
+            z-index: -1;
+            div {
+                margin-left: 40px;
+                margin-top: 0.5rem;
+                max-width: 100vw;
+            }
         }
-        li:before {
-            content: "- ";
+        .checkbox label::before,
+        .checkbox label::after {
+            position: absolute;
         }
-    }
-    .policy_text {
-        @include mobile-read-text;
-        max-width: 80%;
-        align-self: center;
-        margin-top: 40px;
-        line-height: 25px;
-    }
-    .checkbox {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-    .checkbox input[type="checkbox"] {
-        opacity: 0;
-    }
-    .checkbox label::before {
-        content: "";
-        display: inline-block;
-        height: 16px;
-        width: 16px;
-        border: 1px solid;
-        z-index: -1;
-    }
-    .checkbox label::after {
-        content: "";
-        display: inline-block;
-        height: 6px;
-        width: 9px;
-        border-left: 2px solid;
-        border-bottom: 2px solid;
-        transform: rotate(-45deg);
-        z-index: -1;
-    }
-    .checkbox label {
-        position: relative;
-        font-size: 12px;
-        @include mobile-read-text;
-        z-index: -1;
-        div {
-            margin-left: 40px;
-            margin-top: 2px;
-            max-width: 190px;
+        /*Outer-box*/
+        .checkbox label::before {
+            top: 6px;
+            left: -27px;
+            padding: 5px;
         }
-    }
-    .checkbox label::before,
-    .checkbox label::after {
-        position: absolute;
-    }
-    /*Outer-box*/
-    .checkbox label::before {
-        top: 6px;
-        left: -15px;
-        padding: 5px;
-    }
-    /*Checkmark*/
-    .checkbox label::after {
-        left: -12px;
-        top: 11px;
-    }
-    /*Hide the checkmark by default*/
-    .checkbox input[type="checkbox"] + label::after {
-        content: none;
-    }
-    /*Unhide the checkmark on the checked state*/
-    .checkbox input[type="checkbox"]:checked + label::after {
-        content: "";
-        height: 12px;
-        width: 22px;
-    }
-    /*Adding focus styles on the outer-box of the fake checkbox*/
-    .checkbox input[type="checkbox"]:focus + label::before {
-        outline: rgb(59, 153, 252) auto 5px;
-    }
-    #button_container {
-        height: 2em;
-        margin-top: 20px;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        /*Checkmark*/
+        .checkbox label::after {
+            left: -25px;
+            top: 11px;
+        }
+        /*Hide the checkmark by default*/
+        .checkbox input[type="checkbox"] + label::after {
+            content: none;
+        }
+        /*Unhide the checkmark on the checked state*/
+        .checkbox input[type="checkbox"]:checked + label::after {
+            content: "";
+            height: 12px;
+            width: 22px;
+        }
+        /*Adding focus styles on the outer-box of the fake checkbox*/
+        .checkbox input[type="checkbox"]:focus + label::before {
+            outline: rgb(59, 153, 252) auto 5px;
+        }
+        #button_container {
+            height: 2em;
+            margin-top: 20px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
-        #agree_button {
-            @include mobile-button;
-            padding: 15px 30px;
-        
-            p {
-                font-size: 16px;
-                margin: 0;
+            #agree_button {
+                padding: 0.75rem 2rem;
+                font-family: 'Raleway Light', sans-serif;
+                font-weight: 300;
+                font-size: 1.75rem;
+                background-color: white;
+                border: 1px solid $paragraph-text;
+                p {
+                    margin: 0;
+                }
+                &:hover {
+                    transition: ease-in-out 0.25s;
+                    background-color: $paragraph-text;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 600px) {
+    #prep_after {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        z-index: 0;
+        @include mobile-title;
+        #prep_mobile_title {
+            width: 100%;
+            text-align: center;
+        }
+        .policy-details-container {
+            display: flex;
+            flex-direction: column;
+            #sub_title {
+                font-size: 20px;
+                font-weight: 600;
+                margin-left: 7%;
+                margin-bottom: -20px;
+            }
+            ul {
+                max-width: 80%;
+                li {
+                    list-style-type: none;
+                    font-size: 16px;
+                    @include mobile-read-text;
+                }
+                li:before {
+                    content: "- ";
+                }
+            }
+            .policy_text {
+                @include mobile-read-text;
+                max-width: 80%;
+                align-self: center;
+                margin-top: 40px;
+                line-height: 25px;
+            }
+        }
+        .checkbox {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .checkbox input[type="checkbox"] {
+            opacity: 0;
+            height: 28px;
+            width: 28px;
+        }
+        .checkbox label::before {
+            content: "";
+            display: inline-block;
+            height: 16px;
+            width: 16px;
+            border: 1px solid;
+            z-index: -1;
+        }
+        .checkbox label::after {
+            content: "";
+            display: inline-block;
+            height: 6px;
+            width: 9px;
+            border-left: 2px solid;
+            border-bottom: 2px solid;
+            transform: rotate(-45deg);
+            z-index: -1;
+        }
+        .checkbox label {
+            position: relative;
+            font-size: 1.75rem;
+            @include mobile-read-text;
+            z-index: -1;
+            div {
+                margin-left: 40px;
+                margin-top: 2px;
+                max-width: 190px;
+            }
+        }
+        .checkbox label::before,
+        .checkbox label::after {
+            position: absolute;
+        }
+        /*Outer-box*/
+        .checkbox label::before {
+            top: 6px;
+            left: -27px;
+            padding: 5px;
+        }
+        /*Checkmark*/
+        .checkbox label::after {
+            left: -25px;
+            top: 11px;
+        }
+        /*Hide the checkmark by default*/
+        .checkbox input[type="checkbox"] + label::after {
+            content: none;
+        }
+        /*Unhide the checkmark on the checked state*/
+        .checkbox input[type="checkbox"]:checked + label::after {
+            content: "";
+            height: 12px;
+            width: 22px;
+        }
+        /*Adding focus styles on the outer-box of the fake checkbox*/
+        .checkbox input[type="checkbox"]:focus + label::before {
+            outline: rgb(59, 153, 252) auto 5px;
+        }
+        #button_container {
+            height: 2em;
+            margin-top: 20px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            #agree_button {
+                @include mobile-button;
+                padding: 15px 30px;
+
+                p {
+                    font-size: 16px;
+                    margin: 0;
+                }
             }
         }
     }

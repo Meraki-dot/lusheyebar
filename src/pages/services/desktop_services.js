@@ -13,83 +13,69 @@ const Desktop_services = () => {
     <div className="container" id="desktop_services">
       <div className="grey_box"></div>
       <div id="service_items">
-        <p
-          data-sal="fade"
-          data-sal-duration="500"
-          data-sal-easing="ease"
-          data-sal-delay="100"
-          className="desktop_service_title"
-        >
-          Lashes
-        </p>
         <div
-          data-sal="fade"
-          data-sal-duration="500"
+          data-sal="slide-up"
+          data-sal-duration="1500"
           data-sal-easing="ease"
           className="sec-col"
         >
-          <div className="opacity-window">
-            <img src={Lash_overview} />
+          <p className="desktop_service_title">Lashes</p>
+          <div className="service-info-container">
+            <div className="opacity-window">
+              <img src={Lash_overview} />
+            </div>
+            <Link className="service_desktop_button" to="lashes">
+              {button_title}
+            </Link>
           </div>
-          <Link className="service_desktop_button" to="lashes">
-            {button_title}
-          </Link>
         </div>
-        <p
-          data-sal="fade"
-          data-sal-duration="500"
-          data-sal-easing="ease"
-          data-sal-delay="100"
-          className="sec-col"
-          className="desktop_service_title"
-        >
-          Eyebrows
-        </p>
         <div
-          data-sal="fade"
-          data-sal-duration="500"
+          data-sal="slide-up"
+          data-sal-duration="1500"
           data-sal-easing="ease"
-          className="sec-col"
           className="sec-col"
         >
-          <div className="opacity-window">
-            <img src={Brow_overview} />
+          <p className="desktop_service_title">Eyebrows</p>
+          <div className="service-info-container">
+            <div className="opacity-window">
+              <img src={Brow_overview} />
+            </div>
+            <Link className="service_desktop_button" to="eyebrows">
+              {button_title}
+            </Link>
           </div>
-          <Link className="service_desktop_button" to="eyebrows">
-            {button_title}
-          </Link>
         </div>
-        <p data-sal="fade"
-          data-sal-duration="500"
+        <div
+          data-sal="slide-up"
+          data-sal-duration="1500"
           data-sal-easing="ease"
-          data-sal-delay="100"
-          className="sec-col" className="desktop_service_title">Tattoo Removal</p>
-        <div data-sal="fade"
-          data-sal-duration="500"
-          data-sal-easing="ease"
-          className="sec-col" className="sec-col">
-          <div className="opacity-window">
-            <img src={Tattoo_white} />
+          className="sec-col"
+        >
+          <p className="desktop_service_title">Tattoo Removal</p>
+          <div className="service-info-container">
+            <div className="opacity-window">
+              <img src={Tattoo_white} />
+            </div>
+            <Link className="service_desktop_button" to="tattoo_removal">
+              {button_title}
+            </Link>
           </div>
-          <Link className="service_desktop_button" to="tattoo_removal">
-            {button_title}
-          </Link>
         </div>
-        <p data-sal="fade"
-          data-sal-duration="500"
+        <div
+          data-sal="slide-up"
+          data-sal-duration="1500"
           data-sal-easing="ease"
-          data-sal-delay="100"
-          className="sec-col" className="desktop_service_title">Waxing</p>
-        <div data-sal="fade"
-          data-sal-duration="500"
-          data-sal-easing="ease"
-          className="sec-col" className="sec-col">
-          <div className="opacity-window">
-            <img src={Wax} />
+          className="sec-col"
+        >
+          <p className="desktop_service_title">Waxing</p>
+          <div className="service-info-container">
+            <div className="opacity-window">
+              <img src={Wax} />
+            </div>
+            <Link className="service_desktop_button" to="waxing">
+              {button_title}
+            </Link>
           </div>
-          <Link className="service_desktop_button" to="waxing">
-            {button_title}
-          </Link>
         </div>
       </div>
       <Footer />

@@ -9,6 +9,7 @@ import {
 } from "react-accessible-accordion"
 import "react-accessible-accordion/dist/fancy-example.css"
 import { Link } from "gatsby"
+import Footer from "../components/footer_components/Footer"
 
 const Brow_faq = () => {
   const [agreed, setAgreed] = useState(false)
@@ -189,6 +190,7 @@ const Brow_faq = () => {
           </Link>
         </div>
       </div>
+      <Footer />
     </Layout>
   )
 }
