@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import { Link } from "gatsby"
 import Footer from "../components/footer_components/Footer"
 
-const Brow_removal_policies = () => {
+const Touch_up_policies = () => {
   const [agreed, setAgreed] = useState(false)
 
   const onClick = () => {
@@ -33,15 +33,11 @@ const Brow_removal_policies = () => {
               for the remainder balance. Deposits are non refundable and non
               transferable.
               <br />
+              Before making a deposit please make sure you read through the
+              frequently asked questions and be able to follow the before and
+              aftercare procedures. Once you book the appointment your deposit
+              is non refundable.
               <br />
-              Please send a picture of your current eyebrows as a text message
-              to <strong>510-736-3779</strong> before booking your appointment.
-              <br />
-              <br />
-              <strong>
-                Please note that Lush Eye Bar does not perform removals for
-                Ombré virgin eyebrows.
-              </strong>
             </p>
           </div>
           <div className="policy-details-container">
@@ -61,9 +57,9 @@ const Brow_removal_policies = () => {
           </label>
         </div>
         <div id="button_container">
-          <Link to="/brow_faq">
+          <Link to="/schedule">
             <button id="agree_button">
-              <p>Next</p>
+              <p>Book</p>
             </button>
           </Link>
         </div>
@@ -73,4 +69,4 @@ const Brow_removal_policies = () => {
   )
 }
 
-export default Brow_removal_policies
+export default Touch_up_policies

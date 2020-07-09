@@ -185,7 +185,7 @@ const Brow_faq = () => {
         <div id="button_container">
           <Link to="brow_prep_after">
             <button id="agree_button">
-              <p>Next.</p>
+              <p>Next</p>
             </button>
           </Link>
         </div>

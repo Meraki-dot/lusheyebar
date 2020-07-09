@@ -24,7 +24,7 @@ const Mobile_brows = () => {
           <p className='price_text solo_first'>6-8 Weeks · $100</p>
           <p className='price_text solo'>3-11 Months · $150</p>
           <p className='price_text solo_last'>Annual Color Booster · $250</p>
-          <Link to="brow_policies">{button_title}</Link>
+          <Link to="touch_up_policies">{button_title}</Link>
           <img src={Correction} />
           <p className='sub_title'>Correction | Cover-Up</p>
           <p className='price_text solo_first'>$100</p>    

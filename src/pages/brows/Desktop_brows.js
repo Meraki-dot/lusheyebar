@@ -51,7 +51,7 @@ const Desktop_brows = () => {
             <div className="opacity-window">
               <img src={Touch_up} />
             </div>
-            <Link to="brow_policies">{button_title}</Link>
+            <Link to="touch_up_policies">{button_title}</Link>
           </div>
         </div>
         <div
@@ -68,7 +68,7 @@ const Desktop_brows = () => {
             <div className="opacity-window">
               <img src={Correction} />
             </div>
-            <Link to="brow_policies">{button_title}</Link>
+            <Link to="brow_removal_policies">{button_title}</Link>
           </div>
         </div>
       </div>

@@ -44,7 +44,7 @@
             display: flex;
             justify-content: center;
             width: 100%;
-            margin-top: 4rem;
+            margin-top: 5rem;
             margin-bottom: 20px;
             position: relative;
         }
@@ -52,6 +52,7 @@
             opacity: 0;
             height: 28px;
             width: 28px;
+            cursor: pointer;    
         }
         .checkbox label::before {
             content: "";
@@ -126,6 +127,7 @@
                 font-size: 1.75rem;
                 background-color: white;
                 border: 1px solid $paragraph-text;
+                cursor: pointer;
                 p {
                     margin: 0;
                 }
