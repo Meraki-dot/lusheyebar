@@ -27,7 +27,7 @@ const Brow_policies = () => {
           <div className="policy-details-container">
             <p id="sub_title">Deposit</p>
             <p className="policy_text">
-              When booking your appointment, you will be asked to place a $50
+              When booking your appointment, you will be asked to place a $100
               deposit for your service. The deposit will be applied toward your
               remaining balance the day of your appointment. Please bring CASH
               for the remainder balance. Deposits are non refundable and non
