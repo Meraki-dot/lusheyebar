@@ -69,12 +69,13 @@
                         margin-top: 2rem;
                         margin-bottom: 20rem;
                         border: $paragraph-text 1px solid;
-                        padding: 2% 8%;
+                        padding: 0.5rem 2rem;
                         font-size: 1.75rem;
                         font-family: "Raleway Light", sans-serif;
                         color: $paragraph-text;
                         text-decoration: none;
                         cursor: pointer;
+                        word-wrap: normal;
                         &:hover {
                             transition: ease-in-out 0.25s;
                             background-color: $paragraph-text;
@@ -157,9 +158,9 @@
                         width: 35rem;
                     }
                     a {
-                        margin-top: 2rem;
+                        margin: auto;
                         border: $paragraph-text 1px solid;
-                        padding: 1.5% 6%;
+                        padding: 0.5rem 2rem;
                         font-size: 1.75rem;
                         font-family: "Raleway Light", sans-serif;
                         color: $paragraph-text;

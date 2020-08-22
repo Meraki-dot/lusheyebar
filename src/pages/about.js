@@ -1,9 +1,14 @@
 import React from "react"
 import Layout from "../components/layout"
 import Footer from "../components/footer_components/Footer"
+import SEO from "../components/seo";
 
 const About = () => (
   <Layout>
+    <SEO
+      title="Page about Thanh, the lash and eyebrow expert."
+      description="Thanh is a certified cosmetic artist who specializes in eyelash extensions and eyebrow permanent makeup."
+    />
     <div className="container" id="about">
       <div className="grey_box"></div>
       <div className="content-container">

@@ -1,28 +1,39 @@
 module.exports = {
   siteMetadata: {
     title: `Lush Eye Bar`,
-    description: `Short & Simple`,
+    description: `Lush Eye Bar is a local business located in the San Francisco, bay area that provides eyelash extension and eyebrow permanent makeup services.`,
+    url: "https://www.lusheyebar.com",
+    titleTemplate: "%s · Eyelash extension and Eyebrow Permanent Makeup Services",
+    image: `./src/images/Logo_Final.svg`,
     author: `Joshua han`,
+    keywords: ``,
   },
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-scroll-reveal`,
+    `gatsby-plugin-react-svg`,
     {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /assets/, // See below to configure properly
+        },
+      },
       resolve: `gatsby-plugin-scroll-reveal`,
       options: {
-          threshold: 0.01, // Percentage of an element's area that needs to be visible to launch animation
-          once: true, // Defines if animation needs to be launched once
-          disable: false, // Flag for disabling animations
-          
-          // Advanced Options
-          selector: '[data-sal]', // Selector of the elements to be animated
-          animateClassName: 'sal-animate', // Class name which triggers animation
-          disabledClassName: 'sal-disabled', // Class name which defines the disabled state
-          rootMargin: '0% 50%', // Corresponds to root's bounding box margin
-          enterEventName: 'sal:in', // Enter event name
-          exitEventName: 'sal:out', // Exit event name
-      }
+        threshold: 0.01, // Percentage of an element's area that needs to be visible to launch animation
+        once: true, // Defines if animation needs to be launched once
+        disable: false, // Flag for disabling animations
+
+        // Advanced Options
+        selector: "[data-sal]", // Selector of the elements to be animated
+        animateClassName: "sal-animate", // Class name which triggers animation
+        disabledClassName: "sal-disabled", // Class name which defines the disabled state
+        rootMargin: "0% 50%", // Corresponds to root's bounding box margin
+        enterEventName: "sal:in", // Enter event name
+        exitEventName: "sal:out", // Exit event name
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
