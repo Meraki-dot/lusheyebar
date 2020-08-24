@@ -9,7 +9,6 @@ const Lashes = () => {
     <Layout>
       <SEO
         title="Lush Eye Brow's eyelash extension services."
-        description="Lush Eye Bar provides people many ways to make their eyelash extensions look beautiful and gorgeous."
       />
       <Mobile_lashes />
       <Desktop_lashes />

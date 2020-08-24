@@ -3,10 +3,11 @@ module.exports = {
     title: `Lush Eye Bar`,
     description: `Lush Eye Bar is a local business located in the San Francisco, bay area that provides eyelash extension and eyebrow permanent makeup services.`,
     url: "https://www.lusheyebar.com",
-    titleTemplate: "%s · Eyelash extension and Eyebrow Permanent Makeup Services",
     image: `./src/images/Logo_Final.svg`,
     author: `Joshua han`,
     keywords: ``,
+    name: `google-site-verification`,
+    content: `google7c228199fc0564e5.html`,
   },
   plugins: [
     `gatsby-plugin-sass`,

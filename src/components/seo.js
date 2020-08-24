@@ -10,10 +10,12 @@ const SEO = ({ title, description, image, article }) => {
 
   const {
     defaultTitle,
-    titleTemplate,
     defaultDescription,
     siteUrl,
     defaultImage,
+    name,
+
+    content
   } = site.siteMetadata
 
   const seo = {
@@ -21,10 +23,14 @@ const SEO = ({ title, description, image, article }) => {
     description: description || defaultDescription,
     image: `${siteUrl}${image || defaultImage}`,
     url: `${siteUrl}${pathname}`,
+    name: name,
+    content: content,
   }
 
   return (
-    <Helmet title={seo.title} titleTemplate={titleTemplate}>
+    <Helmet title={seo.title}>
+      <meta name="name" content={seo.name} />
+      <meta name="content" content={seo.content} />
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
 
@@ -64,10 +70,11 @@ const query = graphql`
     site {
       siteMetadata {
         defaultTitle: title
-        titleTemplate
         defaultDescription: description
         siteUrl: url
         defaultImage: image
+        name: name
+        content: content
       }
     }
   }

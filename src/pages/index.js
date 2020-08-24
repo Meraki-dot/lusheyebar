@@ -8,8 +8,7 @@ import Footer from "../components/footer_components/Footer"
 const IndexPage = () => (
   <Layout>
     <SEO
-      title="Lush Eye Bar, lash extension and eyebrow permanent makeup service homepage"
-      description="Local business located in Alameda, California, provides eyelash extension and eyebrow permanent makeup services to the public."
+      title="Lush Eye Bar | Eyelash Extension Services"
     />
     <div className="container" id="home">
       <div className="page_content">
