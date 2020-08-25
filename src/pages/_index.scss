@@ -1,3 +1,8 @@
+@media only screen and (min-height: 1236px) {
+    #home {
+        min-height: 70vh !important;
+    }
+}
 @media only screen and (min-width: 768px) {
     #home {
         min-height: 62vh;

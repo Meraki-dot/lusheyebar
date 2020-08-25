@@ -1,3 +1,11 @@
+@media only screen and (min-height: 1236px) {
+    #prep_after {
+        height: 72vh !important;
+        .policy-container {
+            margin-top: 3rem !important;
+        }
+    }
+}
 @media all and (min-width: 600px) {
     #prep_after {
         display: flex;

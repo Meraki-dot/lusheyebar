@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useLocation } from "@reach/router"
 import { useStaticQuery, graphql } from "gatsby"
+import Favicon from "../images/favicon.ico"
 
 const SEO = ({ title, description, image, article }) => {
   const { pathname } = useLocation()
@@ -13,9 +14,6 @@ const SEO = ({ title, description, image, article }) => {
     defaultDescription,
     siteUrl,
     defaultImage,
-    name,
-
-    content
   } = site.siteMetadata
 
   const seo = {
@@ -23,14 +21,14 @@ const SEO = ({ title, description, image, article }) => {
     description: description || defaultDescription,
     image: `${siteUrl}${image || defaultImage}`,
     url: `${siteUrl}${pathname}`,
-    name: name,
-    content: content,
+    name: "google-site-verification",
+    content: "OtCrtsV5Zd-MVJr0nOHOjkcyOgyXyaR3GQa9WN9r6Kc",
   }
 
   return (
     <Helmet title={seo.title}>
-      <meta name="name" content={seo.name} />
-      <meta name="content" content={seo.content} />
+      <link rel="icon" href={Favicon} />
+      <meta name={seo.name} content={seo.content} />
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
 

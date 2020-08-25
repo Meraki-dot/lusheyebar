@@ -7,13 +7,15 @@ module.exports = {
     author: `Joshua han`,
     keywords: ``,
     name: `google-site-verification`,
-    content: `google7c228199fc0564e5.html`,
+    content: `OtCrtsV5Zd-MVJr0nOHOjkcyOgyXyaR3GQa9WN9r6Kc`,
+    siteUrl: `https://lusheyebar.com/`,
   },
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-scroll-reveal`,
     `gatsby-plugin-react-svg`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: "gatsby-plugin-react-svg",
       options: {
