@@ -44,7 +44,6 @@ const Desktop_brows = () => {
           <div className="service_title_prices">
             <p className="sub_title">Touch Up</p>
             <p className="price_text">6-8 Weeks · $100</p>
-            <p className="price_text solo">3-11 Months · $150</p>
             <p className="price_text solo_last">Annual Color Booster · $250</p>
           </div>
           <div className="service_option_content">

@@ -22,7 +22,6 @@ const Mobile_brows = () => {
           <img src={Touch_up} />
           <p className='sub_title'>Touch Up</p>
           <p className='price_text solo_first'>6-8 Weeks · $100</p>
-          <p className='price_text solo'>3-11 Months · $150</p>
           <p className='price_text solo_last'>Annual Color Booster · $250</p>
           <Link to="touch_up_policies">{button_title}</Link>
           <img src={Correction} />
