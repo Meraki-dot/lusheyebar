@@ -1,6 +1,7 @@
 import React, { useState} from "react"
 import { slide as Menu } from "react-burger-menu"
 import { Link } from "gatsby"
+import Logo from "../../images/Logo_final.png"
 
 const Mobile = () => {
   const [open, setOpen] = useState(true);

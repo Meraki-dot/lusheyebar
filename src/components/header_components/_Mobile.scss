@@ -7,7 +7,7 @@
     position: fixed;
     width: 35px;
     height: 28px;
-    top: 2.5%;
+    top: 1.5%;
     right: 5%;
 
     & button {
@@ -92,5 +92,14 @@
     display: block;
     background: white !important;
     z-index: 5;
+  }
+  #mobile-logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    img {
+      width: 8rem;
+      margin-left: 17%;
+    }
   }
 }
