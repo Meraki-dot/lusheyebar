@@ -1,21 +1,28 @@
 @media all and (min-width: 600px) {
-    .schedule-container {
-        height: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 10% 5% 5% 5%;
-        flex-direction: column;
-    }
+  .desktop-schedule-container {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10% 0;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .mobile-schedule-container {
+    display: none;
+  }
 }
 
 @media all and (max-width: 599px) {
-    .schedule-container {
-        height: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 25% 5% 5% 5%;
-        flex-direction: column;
-    }
+  .mobile-schedule-container {
+    height: 2000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25% 5% 5% 5%;
+    flex-direction: column;
+  }
+  .desktop-schedule-container {
+    display: none;
+  }
 }

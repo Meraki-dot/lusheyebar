@@ -1,9 +1,9 @@
-@media only screen and (min-height: 1236px) {
+@media only screen and (min-width: 1236px) {
   #about {
     min-height: 74.6vh !important;
     height: 100%;
     .content-container {
-      min-height: 60vh;
+      min-height: 54vh;
       .title,
       .text-container {
         margin-top: -5rem;
