@@ -61,7 +61,7 @@ const Desktop_brows = () => {
         >
           <div className="service_title_prices">
             <p className="sub_title">Correction</p>
-            <p className="price_text">$100</p>
+            <p className="price_text">$500</p>
           </div>
           <div className="service_option_content">
             <div className="opacity-window">

@@ -26,7 +26,7 @@ const Mobile_brows = () => {
           <Link to="touch_up_policies">{button_title}</Link>
           <img src={Correction} />
           <p className='sub_title'>Correction | Cover-Up</p>
-          <p className='price_text solo_first'>$100</p>    
+          <p className='price_text solo_first'>$500</p>    
           <Link to="brow_removal_policies">{button_title}</Link>
         </div>
       <Footer />
