@@ -67,7 +67,7 @@ const Desktop_lashes = () => {
           <div className="service_title_prices">
             <p className="sub_title">Natural Volume</p>
             <p className="price_text">
-              2.5 hours · $185 | 2-3 week fill · $110
+              2.5 hours · $200 | 2-3 week fill · $110
             </p>
           </div>
           <div className="service_option_content">

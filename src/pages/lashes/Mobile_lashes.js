@@ -35,7 +35,7 @@ const Mobile_lashes = () => {
 
         <img src={Natural_volume} />
         <p className="sub_title">Natural Volume</p>
-        <p className="price_text">2.5 hours · $185 | 2-3 week fill · $110</p>
+        <p className="price_text">2.5 hours · $200 | 2-3 week fill · $110</p>
         <p className="service_description">
           The technician hand makes 3-5d fans and applies it to one natural
           eyelash. Lash coverage, 50% of natural eyelash. Creating a light
