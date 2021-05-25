@@ -22,7 +22,7 @@ const Desktop_lashes = () => {
         >
           <div className="service_title_prices">
             <p className="sub_title">Natural Classic</p>
-            <p className="price_text">1 hour · $130 | 2-3 week fill · $70</p>
+            <p className="price_text">45 min · $130 | 2-3 week fill · $70</p>
           </div>
           <div className="service_option_content">
             <div className="opacity-window">
@@ -30,7 +30,7 @@ const Desktop_lashes = () => {
             </div>
             <p className="service_description">
               The technician will apply one extension per a natural lash. Lash
-              coverage, 50 natural lashes. Classic lashes are perfect for
+              coverage, 25 natural lashes per eye. Classic lashes are perfect for
               clients who already have a lot of lashes, but would like to add
               more length. This style creates a more natural look.{" "}
             </p>
@@ -45,14 +45,14 @@ const Desktop_lashes = () => {
         >
           <div className="service_title_prices">
             <p className="sub_title">Classic</p>
-            <p className="price_text">2 hours · $185 | 2-3 week fill · $95</p>
+            <p className="price_text">1.5 hours · $185 | 2-3 week fill · $95</p>
           </div>
           <div className="service_option_content">
             <div className="opacity-window">
               <img src={Classic} />
             </div>
             <p className="service_description">
-              Same technique as natural classic. Lash coverage, 85% of natural
+              Same technique as natural classic. Lash coverage, 50% of natural
               lash.{" "}
             </p>
             <Link to="lashes_policies">{button_title}</Link>
@@ -67,7 +67,7 @@ const Desktop_lashes = () => {
           <div className="service_title_prices">
             <p className="sub_title">Natural Volume</p>
             <p className="price_text">
-              2.5 hours · $200 | 2-3 week fill · $110
+              1.5 hours · $200 | 2-3 week fill · $110
             </p>
           </div>
           <div className="service_option_content">
@@ -76,8 +76,7 @@ const Desktop_lashes = () => {
             </div>
             <p className="service_description">
               The technician hand makes 3-5d fans and applies it to one natural
-              eyelash. Lash coverage, 50% of natural eyelash. Creating a light
-              everyday look.
+              eyelash. Creating a light everyday look.
             </p>
             <Link to="lashes_policies">{button_title}</Link>
           </div>
@@ -90,15 +89,14 @@ const Desktop_lashes = () => {
         >
           <div className="service_title_prices">
             <p className="sub_title">Volume</p>
-            <p className="price_text">3 hours · $250 | 2-3 week fill · $135</p>
+            <p className="price_text">2 hours · $250 | 2-3 week fill · $135</p>
           </div>
           <div className="service_option_content">
             <div className="opacity-window">
               <img src={Volume_lashes} />
             </div>
             <p className="service_description">
-              Same technique as natural volume. Lash coverage, 85% of natural
-              eyelash. Volume lashes are lighter, fluffier and gives the client
+              Same technique as natural volume. Volume lashes are lighter, fluffier and gives the client
               a fuller look. Volume lashes are perfect for clients who don't
               have a lot of lashes, have sparse lashes, bald spots or just want
               a more dramatic look without having to use a thicker lash.{" "}
