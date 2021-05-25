@@ -15,7 +15,7 @@ const Schedule = () => {
           frameborder="0"
           scrolling="yes"
           width="100%"
-          height= "1200px"
+          height= "1500px"
           onload="this.height=this.contentWindow.document.body.scrollHeight;"
         ></iframe>
         <script
@@ -33,7 +33,7 @@ const Schedule = () => {
           frameborder="0"
           scrolling="no"
           width="100%"
-          height="2700px"
+          height="3000px"
           onload="scroll(0,0);"
         ></iframe>
         <script
