@@ -45,7 +45,7 @@ const Mobile_lashes = () => {
 
         <img src={Volume_lashes} />
         <p className="sub_title">Volume</p>
-        <p className="price_text">3 hours · $250 | 2-3 week fill · $135</p>
+        <p className="price_text">2 hours · $250 | 2-3 week fill · $135</p>
         <p className="service_description">
         Same technique as natural volume. Volume lashes are lighter, fluffier and gives the client
               a fuller look. Volume lashes are perfect for clients who don't
